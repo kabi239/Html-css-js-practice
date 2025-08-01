@@ -23,6 +23,23 @@
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Female</label>
     </div> 
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">Sub to newsletter</label>  
+    </div>
+    <div>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" autofocus required placeholder="Enter your message"></textarea>
+    </div>
+    <div>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="us">United States</option>
+            <option value="ca">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="au">Australia</option>
+        </select>
+    </div>
          <button type="submit">Submit</button>
     </form>
 </body>
